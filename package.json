@@ -1,0 +1,36 @@
+{
+  "name": "api-booknest",
+  "version": "1.0.0",
+  "description": "Este projeto é uma API de livros para um projeto de front-end para a disciplina de projetos.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isab5/API-BookNest.git"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "SENAI",
+    "Projeto"
+  ],
+  "author": "Isabella Borin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isab5/API-BookNest/issues"
+  },
+  "homepage": "https://github.com/isab5/API-BookNest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
