@@ -120,10 +120,30 @@ Mas vampiros e lobisomens sedentos por poder não são as únicas ameaças que p
 
 -- Colleen Hoover – todos os livros traduzidos em português
 INSERT INTO books (title, summary, author_id, publication_date, pages, cover_url, language, genre) VALUES
-('Métrica', NULL, 2, '2013-00-00', NULL, NULL, 'Português', 'Romance YA'),
-('Pausa', NULL, 2, '2013-00-00', NULL, NULL, 'Português', 'Romance YA'),
-('Essa Garota', NULL, 2, '2014-00-00', NULL, NULL, 'Português', 'Romance YA'),
-('Um Caso Perdido', NULL, 2, '2022-00-00', NULL, NULL, 'Português', 'Romance YA'),
+('Métrica', 'Após a morte do pai, a ausência torna-se a maior companheira de Lake. A responsabilidade pela mãe e pelo irmão caçula a congelam num limbo de luto e dor. Por fora, ela parece corajosa e tenaz; por dentro, está perdendo as esperanças. E se mudar do único lar que conheceu não ajuda em nada.
+Agora em uma nova casa, em uma nova cidade, ela precisa achar seu caminho. E um rapaz apaixonado por poesia pode ser o guia perfeito. Quando conhece o novo vizinho, Layken imediatamente sente uma intensa conexão. Algo que finalmente parece desanuviar um pouco sua realidade.
+Mas o caminho da verdadeira felicidade não é feito de tijolos dourados, e logo uma revelação atordoante faz o novo relacionamento ser bruscamente interrompido. O dia a dia vai se tornando cada vez mais doloroso à medida que eles se esforçam para encontrar um equilíbrio entre os sentimentos que os aproximam e as forças que os separam.
+Layken e Will precisam decidir se o amor é mesmo a maior das recompensas. E se estão dispostos a tudo para vivê-lo. Até mesmo magoar um ao outro. Na poesia dos dois, talvez a estrofe perfeita seja solitária e ímpar. E amor rime com dor.
+"Único, diferente de tudo que se vê por aí...Leia!" - Tama Webber, autora de Easy', 2, '2013-06-07', 303, 'https://m.media-amazon.com/images/I/91eZao2mhTL._SY342_.jpg', 'Português', 'Romance'),
+('Pausa', 'O amor pode não ser o bastante. Depois de superarem tragédias, proibições e desencontros, o relacionamento de Will e Layken enfrentam novos desafios. E talvez a poesia desse casal acabe num verso solitário... Sem direito a rima ou ritmo.
+
+A ex-namorada de Will retorna, arrependida de ter deixado o rapaz. E está disposta a tudo para reconquistá-lo. Insegura, Layken começa a ler novas razões nos comportamentos do rapaz. E na sua insistência para adiar a “primeira vez” de ambos. Presos em uma ironia cruel do destino, eles precisam descobrir se o que sentem um pelo outro é verdadeiro ou se é apenas fruto da extraordinária situação que os uniu.
+
+Será que é paixão? Ou apenas compaixão? Layken passa a questionar a base de seu relacionamento com Will. E ele precisa provar seu amor para uma garota que parece não conseguir parar de “esculpir abóboras”. Mas quando tudo parece resolvido, o casal se depara com um desafio ainda maior – e que talvez mude não só suas vidas, mas também as vidas de todos que dependem deles.', 2, '2013-11-07', 304, 'https://m.media-amazon.com/images/I/718la6Hn1rS._SY342_.jpg', 'Português', 'Romance'),
+('Essa Garota', 'O amor de Will e Layken enfrentou — e venceu — proibições, impedimentos, ciúme, tragédia. Mas, agora casados, os dois se sentem seguros do sentimento que os une.
+Lake e Will estão em plena lua de mel, encantados com o futuro que têm pela frente. Lake quer saber tudo que há para saber sobre o marido — mesmo quando este se torna reticente quanto a despertar memórias dolorosas. Pouco a pouco, Lake convence Will a desembaraçar os nós da própria história e, pela primeira vez, seus mais íntimos sentimentos e pensamentos ganham voz.
+Sob a ótica de Will, revisitamos os bons e maus momentos. E conhecemos alguns fatos chocantes. O futuro de Will e Lake agora depende de como os dois lidarão com essas revelações.', 2, '2014-09-25', 319, 'https://m.media-amazon.com/images/I/91WkdA80scL._SY342_.jpg', 'Português', 'Romance'),
+('Um Caso Perdido', 'Algumas vezes, a verdade pode ser impossível de digerir. Às vezes, só às vezes, a mentira parece ser a melhor saída. A melhor opção.
+
+Aos 18 anos, Sky cataloga garotos como sabores de sorvete. Alguns são baunilha, outros, um pouco mais ousados. Mas nenhum a empolga. Aliás, o que ela gostaria mesmo de experimentar é o ensino médio, por mais que todas as suas referências sobre o assunto ― tiradas d seus amados e fiéis companheiros livros ― retratem a escola com as pinceladas de um inferno hormonal.
+
+No entanto, Sky é forte e, principalmente, está preparada, apesar dos estranhos pesadelos que a perseguem, que lhe mostram uma garotinha sempre às lágrimas. Então, quando a mãe adotiva a libera para frequentar o último ano na escola local, ela pensa em tirar o máximo da experiência. Mesmo que sua melhor amiga, e única pessoa que conhece na instituição, tenha resolvido fazer intercâmbio na Itália.
+
+Sky se vê sozinha na selva de nerds, atletas, populares... e com uma reputação nebulosa. Mas quando ela conhece Dean Holder, um rapaz cuja fama pode competir com a sua, Sky experimenta sensações de que jamais acreditou ser capaz. Ele a aterroriza e a encanta. Tudo isso com apenas um encontro.
+
+Embora tente manter distância, Holder insiste em saber tudo sobre Sky, e, incapaz de negar a estranha conexão, ela finalmente se rende ― sem saber que o comportamento errático do garoto tem uma explicação, que testará o amor dos dois e a confiança de Sky nesse caso perdido pelo qual se apaixonou.
+
+Agora, a verdade pode libertá-la. Ou simplesmente trucidá-la em Um caso perdido, uma história que retrata dois jovens com um passado devastador e um amor capaz de guiá-los numa jornada de descobertas... sobre vida, amor, confiança e, acima de tudo, o poder da verdade.', 2, '2022-03-28', 384, 'https://m.media-amazon.com/images/I/81BnNuSP4uL._SY342_.jpg', 'Português', 'Romance'),
 ('Sem Esperança', NULL, 2, '2022-00-00', NULL, NULL, 'Português', 'Romance YA'),
 ('Em Busca de Cinderela', NULL, 2, '2022-00-00', NULL, NULL, 'Português', 'Novela'),
 ('Em Busca da Perfeição', NULL, 2, '2022-00-00', NULL, NULL, 'Português', 'Novela'),
