@@ -80,11 +80,43 @@ A vampira tem as próprias razões para concordar com o casamento arranjado, raz
 Misery está disposta a fazer o que for necessário para recuperar o que é seu, mesmo que precise viver sozinha em território licano. Ela só não esperava se sentir atraída por seu inimigo... e ainda ser correspondida.
 
 Em Noiva , Ali Hazelwood mais uma vez brinda o leitor com diálogos divertidos e cenas apaixonantes e sexy, mostrando que sabe escrever romances como ninguém.', 1, '2024-02-06', 368, 'https://m.media-amazon.com/images/I/812RDxFDd8L._SY342_.jpg', 'Português', 'Romance'),
-('Não é amor', NULL, 1, '2024-06-00', NULL, NULL, 'Português', 'Romance'),
-('No fundo é amor', NULL, 1, '2025-00-00', NULL, NULL, 'Português', 'Romance'),
-('Sob o mesmo teto', NULL, 1, '2022-02-00', NULL, NULL, 'Português', 'Novela'),
-('Preso com você', NULL, 1, '2022-03-00', NULL, NULL, 'Português', 'Novela'),
-('Abaixo de zero', NULL, 1, '2022-04-00', NULL, NULL, 'Português', 'Novela');
+('Não é amor', 'A vida de Rue Siebert não é perfeita, mas ela tem alguns poucos amigos leais e uma carreira de sucesso como engenheira de biotecnologia na Kline, uma das mais promissoras startups no campo da ciência dos alimentos.
+
+Ela lutou muito para construir esse mundinho seguro e agradável, que ameaça desmoronar quando um homem terrivelmente atraente lidera uma aquisição hostil da Kline.
+
+Eli Killgore, sócio da Harkness, tem os próprios motivos para querer tomar a empresa em que Rue trabalha. Acostumado a conseguir o que quer, ele se vê diante de uma angustiante exceção: Rue. A mulher em quem não consegue parar de pensar. A mulher que não pode ter.
+
+Divididos entre a lealdade e uma atração inegável, Rue e Eli têm um caso secreto, casual e com prazo de validade: o dia em que uma das duas empresas vencer o embate. Mas o coração faz negócios arriscados... e joga para ganhar.', 1, '2024-06-13', 368, 'https://m.media-amazon.com/images/I/71i-HM1ZrlL._SY342_.jpg', 'Português', 'Romance'),
+('No fundo é amor', 'Scarlett Vandermeer está nadando contra a corrente, tentando equilibrar os estudos com a rotina de atleta. Concentrada em passar para a faculdade de medicina e se recuperar da lesão que quase deu fim à sua carreira nos saltos ornamentais, ela prefere levar uma vida discreta. Não tem tempo para relacionamentos. Ou pelo menos é o que diz para si mesma.
+
+Garoto de ouro da natação, Lukas Blomqvist é capitão da equipe da universidade e campeão mundial, e conquistou tudo isso com muita disciplina. É assim que ele consegue medalhas e quebra recordes: com foco total a cada braçada.
+
+Na superfície, Lukas e Scarlett não têm nada em comum. Até que um segredo vem à tona, e tudo muda.
+
+Então eles fazem um acordo: ter um casinho temporário, que satisfaça as necessidades de ambos e alivie um pouco o estresse pré-Olimpíadas. No entanto, quando se torna cada vez mais difícil ficar longe de Lukas, Scarlett percebe que seu coração talvez esteja adentrando águas perigosas.', 1, '2025-03-13', 464, 'https://m.media-amazon.com/images/I/81XvsucSLVL._SY342_.jpg', 'Português', 'Romance'),
+('Odeio te amar', 'Mara, Sadie e Hannah são três grandes amigas e cientistas tentando equilibrar razão e emoção. Embora seus campos de estudo as tenham levado para diferentes partes do mundo, todas elas concordam com uma verdade universal: quando se trata de amor e ciência, os opostos se atraem e algumas misturas podem ser perigosas…
+
+Engenheira ambiental, Mara descobre que a casa que recebeu de herança é um presente de grego quando se vê obrigada a compartilhar o mesmo teto com o outro herdeiro – Liam, um detestável advogado de uma empresa petroleira que faz de tudo para atormentá-la.
+
+Sadie é uma engenheira civil que se interessa por Erik depois de um encontro inesperado, mas ele acaba traindo sua confiança e os dois se afastam. Um dia, eles ficam presos juntos em um elevador de Nova York, e a rivalidade e o amor vão alcançar um novo patamar.
+
+Hannah está trabalhando em uma remota estação de pesquisa do Ártico quando sofre um acidente. A engenheira aeroespacial da Nasa precisa ser resgatada antes que morra de frio... só não esperava que a única pessoa disposta a realizar a perigosa missão seja Ian, o sujeito que tentou arruinar sua carreira.', 1, '2023-04-11', 352, 'https://m.media-amazon.com/images/I/816tKxfHi1L._SY342_.jpg', 'Português', 'Romance'),
+('Um amor problemático de verão', 'Maya Killgore tem 23 anos e ainda está descobrindo o que quer da vida.
+
+Conor Harkness tem 38, e Maya não consegue parar de pensar nele.
+
+É um clichê tão grande que o coração dela quase não aguenta: homem mais velho e mulher mais nova, empresário rico e estudante falida, melhor amigo do irmão e a garota na qual ele nunca reparou.
+
+Como Conor adora relembrar, a dinâmica de poder entre eles é totalmente desequilibrada. Qualquer relação entre os dois seria muito problemática e Maya precisa superá-lo. Afinal, Conor já deixou claro que não a quer em sua vida.
+
+Mas nem tudo é o que parece... e clichês às vezes sofrem reviravoltas.
+
+Quando o irmão de Maya decide se casar na Itália, ela e Conor são forçados a passar uma semana juntos em uma charmosa villa siciliana. À beira da praia, em meio a antigas ruínas, comidas maravilhosas e cavernas naturais, Maya percebe que talvez Conor esteja escondendo alguma coisa.
+
+Em meio aos caóticos preparativos para o casamento, ela decide que um romance de verão pode ser justamente o que precisa... mesmo que seja problemático.', 1, '2025-06-26', 453, 'https://m.media-amazon.com/images/I/81WIouSP08L._SY342_.jpg', 'Português', 'Romance'),
+('Mate', 'Serena Paris é órfã, sem matilha e única. Apresentar-se como a primeira híbrida humano-lobisomem deveria sanar uma rixa secular entre as espécies. Em vez disso, tornou-se um alvo, presa das implacáveis ​​maquinações políticas entre lobisomens, vampiros e humanos. Com seus inimigos se aproximando, ela só tem uma opção: se ele a aceitar.
+Como Alfa da matilha do Noroeste, Koen Alexander impõe obediência. Sua autoridade é tão absoluta que só um tolo ameaçaria sua companheira. Não importa se Serena não retribuir seus sentimentos, nada o impedirá de mantê-la segura.
+Mas vampiros e lobisomens sedentos por poder não são as únicas ameaças que perseguem Serena. Cedo ou tarde, seu passado certamente a alcançará — e Koen pode ser a única coisa que a separa da aniquilação total...', 1, '2025-10-07', 464, 'https://m.media-amazon.com/images/I/71wRDmzSobL._SY342_.jpg', 'Português', 'Romance');
 
 -- Colleen Hoover – todos os livros traduzidos em português
 INSERT INTO books (title, summary, author_id, publication_date, pages, cover_url, language, genre) VALUES
