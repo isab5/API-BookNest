@@ -3,10 +3,10 @@ const router = express.Router();
 
 const authorController = require("../controllers/authorController");
 
-router.get("/author", authorController.getAllAuthors);
-router.get("/author/:id", authorController.getAuthor);
-router.post("/author", authorController.createAuthor);
-router.put("/author/:id", authorController.updateAuthor);
-router.delete("/author/:id", authorController.deleteAuthor);
+router.get("/authors", authorController.getAllAuthors);
+router.get("/authors/:id", authorController.getAuthor);
+router.post("/authors", authorController.createAuthor);
+router.put("/authors/:id", authorController.updateAuthor);
+router.delete("/authors/:id", authorController.deleteAuthor);
 
 module.exports = router;

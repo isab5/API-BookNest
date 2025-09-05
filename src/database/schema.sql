@@ -9,7 +9,7 @@ CREATE TABLE authors (
     birth_date DATE,
     country VARCHAR(50),
     language VARCHAR(50),
-    literary_genres VARCHAR(100);
+    literary_genres VARCHAR(100),
     photo_url TEXT
 );
 
@@ -17,7 +17,7 @@ CREATE TABLE books (
     id SERIAL PRIMARY KEY,
     title VARCHAR(200) NOT NULL,
     summary TEXT,
-    author_id INTEGER REFERENCES authors(id) ON DELETE SET NULL
+    author_id INTEGER REFERENCES authors(id) ON DELETE SET NULL,
     publication_date DATE,
     pages INT,
     cover_url TEXT,
@@ -28,7 +28,7 @@ CREATE TABLE books (
 INSERT INTO authors (name, bio, birth_date, country, language, literary_genres, photo_url) VALUES
 ('Ali Hazelwood', 'Escritora de romances italiana e professora de neurociência. Muitos de seus trabalhos centram-se em mulheres nas áreas STEM e na academia. Seu romance de estreia, A Hipótese do Amor, foi um best-seller do New York Times.', '1989-12-11', 'Itália', 'Inglês', 'Comédia romântica', 'https://s2-oglobo.glbimg.com/NecvpmbggAeah5BdEAxaeVvSzIQ=/0x0:2249x1841/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2023/6/y/IxmtARQbORn1ZvMh55wg/ali.jpg'),
 ('Colleen Hoover', 'Escritora norte-americana que escreve principalmente livros que abordam como tema central traumas, violências e a exposição de relacionamentos tóxicos, ambientado no gênero "romântico" de ficção para jovens adultos.', '1979-12-11', 'Estados Unidos', 'Inglês', 'Romance', 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCNsoCxaDlvIpKfIWKyulQ-1V0J1JX-VV5kJr61yz6n69n66-bZ-isfufXTxJ67ckHAZNzMXRAjFP3lsKoef0IIvm9game27HeZquKwQ'),
-('Hannah Nicole Maehrer', 'Hannah Nicole Maehrer é uma autora norte-americana, conhecida como @hannahnicolemae no TikTok, que se tornou autora do New York Times com a sua série de fantasia e romance "Assistant to the Villain"', 'null', 'Estados Unidos', 'Inglês', 'Romance', 'https://m.media-amazon.com/images/S/amzn-author-media-prod/gtm8pev8q6ojgdqu3fn8tlsl90.jpg'),
+('Hannah Nicole Maehrer', 'Hannah Nicole Maehrer é uma autora norte-americana, conhecida como @hannahnicolemae no TikTok, que se tornou autora do New York Times com a sua série de fantasia e romance "Assistant to the Villain"', NULL, 'Estados Unidos', 'Inglês', 'Romance', 'https://m.media-amazon.com/images/S/amzn-author-media-prod/gtm8pev8q6ojgdqu3fn8tlsl90.jpg'),
 ('Agatha Christie', ' Agatha Christie foi uma escritora britânica que atuou como romancista, contista, dramaturga e poetisa.', '1890-09-15', 'Reino Unido', 'Inglês', 'Romance', 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Agatha_Christie.png'),
 ('John Green', 'John Michael Green é um vlogger, empresário, produtor e autor norte-americano de livros para jovens', '1977-08-11', 'Estados Unidos', 'Inglês', 'Ficção juvenil ', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL6rcDSGJ_5R0whfPXjD6t1bIT2mBbL8LdPw&s'),
 ('Paula Pimenta ', 'Paula Pimenta é uma escritora brasileira, conhecida principalmente por suas séries de livros "Fazendo Meu Filme" e "Minha Vida Fora de Série".', '1975-06-02', 'Brasil', 'Português', 'Romance', 'https://cdn.pensador.com/img/authors/pa/ul/paula-pimenta-l.jpg'),
