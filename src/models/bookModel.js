@@ -32,32 +32,33 @@ const getBookById = async (id) => {
 };
 
 // Criar um novo livro
-const createBook = async (title, summary, author_id, publication_date, pages, cover_url, language, genre) => {
+const createBook = async (title, summary, author_id, publication_date, price, pages, cover_url, language, genre) => {
     const result = await pool.query(
         `INSERT INTO books 
-            (title, summary, author_id, publication_date, pages, cover_url, language, genre)
-         VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+            (title, summary, author_id, publication_date, price, pages, cover_url, language, genre)
+         VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
          RETURNING *`,
-        [title, summary, author_id, publication_date, pages, cover_url, language, genre]
+        [title, summary, author_id, publication_date, price, pages, cover_url, language, genre]
     );
     return result.rows[0];
 };
 
 // Atualizar um livro existente
-const updateBook = async (id, title, summary, author_id, publication_date, pages, cover_url, language, genre) => {
+const updateBook = async (id, title, summary, author_id, publication_date, price, pages, cover_url, language, genre) => {
     const result = await pool.query(
         `UPDATE books SET 
             title = $1, 
             summary = $2, 
             author_id = $3, 
             publication_date = $4, 
-            pages = $5, 
-            cover_url = $6, 
-            language = $7, 
-            genre = $8
-         WHERE id = $9
+            price = $5,
+            pages = $6, 
+            cover_url = $7, 
+            language = $8, 
+            genre = $9
+         WHERE id = $10
          RETURNING *`,
-        [title, summary, author_id, publication_date, pages, cover_url, language, genre, id]
+        [title, summary, author_id, publication_date, price, pages, cover_url, language, genre, id]
     );
     return result.rows[0];
 };
