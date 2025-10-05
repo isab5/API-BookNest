@@ -1,95 +1,112 @@
-# 📚 API-BookNest
+# 📚 API-BookNest – Backend
 
-A API-BookNest é uma API RESTful criada para gerenciar livros e autores. Ela permite realizar operações de CRUD em livros e autores. O projeto é desenvolvido em Node.js, Express e PostgreSQL, oferecendo endpoints robustos para integração com aplicações web e mobile.
-
----
-
-## Índice
-
-- [Funcionalidades](#funcionalidades)
-- [Como Começar](#como-começar)
-  - [Pré-requisitos](#pré-requisitos)
-  - [Instalação](#instalação)
-  - [Variáveis de Ambiente](#variáveis-de-ambiente)
-  - [Configuração do Banco de Dados](#configuração-do-banco-de-dados)
-  - [Rodando a API](#rodando-a-api)
-- [Endpoints](#endpoints)
-- [Tratamento de Erros](#tratamento-de-erros)
-- [Testando a API](#testando-a-api)
-- [Documentação no Postman](#documentação-no-postman)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
+Este repositório contém a API do **BookNest**, responsável por gerenciar livros e autores via uma API RESTful.  
+⚠️ **Importante:** Para utilizar toda a aplicação BookNest, lembre-se de rodar também o [frontend](https://github.com/isab5/BookNest.git) localmente.
 
 ---
 
-## Funcionalidades
+## 🚀 Pré-requisitos
 
-- Gerenciamento de livros e autores
-- Operações completas de CRUD para todos os recursos
+Antes de começar, você precisa ter instalado na sua máquina:
 
----
-
-## Como começar
-
-### Pré-requisitos
-
-- [Node.js](https://nodejs.org/) (recomendado v16+)
+- [Node.js](https://nodejs.org/) (v16+ recomendado)
 - [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- [Git](https://git-scm.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-### Instalação
+---
 
-Clone o repositório:
+# 📦 Clonando e Configurando o Backend
+
+Siga os passos abaixo para rodar a API do BookNest localmente:
+
+1. **Abrir o terminal/CMD**
+    ```bash
+    # Windows: Win + R → cmd
+    # macOS: Cmd + Space → Terminal
+    ```
+
+2. **Navegar para o local onde deseja salvar o projeto (exemplo: Desktop):**
+    ```bash
+    cd Desktop
+    ```
+
+3. **Criar uma pasta para o projeto:**
+    ```bash
+    mkdir API-BookNest
+    ```
+
+4. **Entrar na pasta criada:**
+    ```bash
+    cd API-BookNest
+    ```
+
+5. **Clonar o repositório:**
+    ```bash
+    git clone https://github.com/isab5/API-BookNest.git .
+    ```
+    > O ponto ao final garante que os arquivos sejam clonados direto na pasta API-BookNest.
+
+6. **Abrir o projeto no VS Code (opcional):**
+    ```bash
+    code .
+    ```
+
+7. **Instalar as dependências:**
+    ```bash
+    # Usando npm
+    npm install
+
+    # ou usando yarn
+    yarn install
+    ```
+
+---
+
+## 🗄️ Configuração do Banco de Dados
+
+1. **Crie um banco PostgreSQL no seu computador**  
+   Exemplo de nome sugerido: `booknest`.
+
+2. **Configure as variáveis de ambiente**  
+   Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo (edite conforme seu ambiente):
+
+    ```
+    PORT=3000
+    DB_USER=seu_usuario_postgres
+    DB_HOST=localhost
+    DB_NAME=booknest
+    DB_PASSWORD=sua_senha_postgres
+    DB_PORT=5432
+    ```
+
+    Você pode usar o arquivo `.env.example` como base.
+
+3. **Execute o script de criação das tabelas**  
+   Rode o SQL localizado em `src/database/schema.sql` no seu banco PostgreSQL.
+
+---
+
+## ▶️ Rodando a API
+
+Inicie o servidor de desenvolvimento:
 
 ```bash
-git clone https://github.com/isab5/API-BookNest.git
-
-cd API-BookNest
-```
-
-Instale as dependências:
-
-```bash
-npm install
-# ou
-yarn install
-```
-
-### Variáveis de Ambiente
-
-Crie um arquivo `.env` na raiz do projeto e configure as seguintes variáveis (as variáveis também podem ser encontradas na `.env.example`):
-
-```
-PORT=3000
-DB_USER=(nomedouser ou postgres)
-DB_HOST=localhost
-DB_NAME=booknest
-DB_PASSWORD=(senha do seu postgres)
-DB_PORT=(port do seu postgres)
-```
-
-Ajuste os valores conforme a sua configuração.
-
-### Configuração do Banco de Dados
-
-1. Crie um banco de dados PostgreSQL (nome sugerido: `booknest`).
-2. Execute os scripts SQL que podem ser encontrados na rota `src/database/schema.sql`.  
-
-### Rodando a API
-
-Inicie o servidor em modo de desenvolvimento:
-
-```bash
+# Usando npm
 npm run dev
-# ou
+
+# ou usando yarn
 yarn dev
 ```
 
-A API estará disponível por padrão em `http://localhost:3000`.
+A API estará disponível em:
+👉 http://localhost:3000
+
+> **Dica:** Mantenha o backend rodando em um terminal separado para garantir o funcionamento do frontend.
 
 ---
 
-## Endpoints
+## 📚 Endpoints Principais
 
 ### Livros
 
@@ -109,9 +126,9 @@ A API estará disponível por padrão em `http://localhost:3000`.
 
 ---
 
-## Tratamento de Erros
+## 🚨 Tratamento de Erros
 
-A API retorna erros no formato:
+As respostas de erro são retornadas no formato:
 
 ```json
 {
@@ -120,35 +137,61 @@ A API retorna erros no formato:
 ```
 
 Códigos de status comuns:
-- `400 Bad Request`: Dados de entrada inválidos
-- `404 Not Found`: Recurso não encontrado
-- `500 Internal Server Error`: Erro inesperado do servidor
+- `400` — Dados de entrada inválidos
+- `404` — Recurso não encontrado
+- `500` — Erro interno do servidor
 
 ---
 
-## Testando a API
+## 🧪 Testando a API
 
-Você pode usar o [Postman](https://www.postman.com/) ou ferramentas similares para testar os endpoints. Uma coleção completa com exemplos está disponível no link da documentação abaixo.
-
----
-
-## Documentação no Postman
-
-Para um guia detalhado e interativo de todas as rotas, exemplos de requisição/resposta, autenticação e mais, acesse:
-
+Você pode testar a API usando o [Postman](https://www.postman.com/) ou ferramentas semelhantes.  
+Coleção pronta para uso:  
 [![Ver Documentação no Postman](https://img.shields.io/badge/Postman-API%20Docs-orange?logo=postman)](https://documenter.getpostman.com/view/42621906/2sB3HqJe95)
-
-**Link direto:**  
-https://documenter.getpostman.com/view/42621906/2sB3HqJe95
-
----
-
-## Contribuindo
-
-Contribuições são bem-vindas! Basta fazer um fork do repositório e abrir um pull request com suas alterações.
+  
+[Documentação completa no Postman](https://documenter.getpostman.com/view/42621906/2sB3HqJe95)
 
 ---
 
-## Licença
+## 🛠️ Tecnologias utilizadas
 
-Este projeto está licenciado sob a licença MIT.
+- Node.js e Express – Backend e API REST
+- PostgreSQL – Banco de dados relacional
+- Sequelize (ou outro ORM, se aplicável)
+- Dotenv – Gerenciamento de variáveis de ambiente
+
+---
+
+## 📁 Estrutura do Projeto
+
+```bash
+API-BookNest/
+├── src/
+│   ├── controllers/      # Lógica dos endpoints
+│   ├── database/         # Configuração e scripts do banco
+│   ├── models/           # Modelos das tabelas
+│   ├── routes/           # Rotas da API
+│   └── ...               # Outros arquivos
+├── .env.example          # Exemplo de configuração ambiente
+├── README.md
+└── ...
+```
+
+---
+
+# 🤝 Contribuindo
+
+Contribuições são bem-vindas!  
+Siga os passos:
+
+1. Faça um fork do projeto
+2. Crie uma branch (`git checkout -b minha-feature`)
+3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
+4. Envie para o repositório (`git push origin minha-feature`)
+5. Abra um Pull Request
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
