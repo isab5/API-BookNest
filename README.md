@@ -72,12 +72,12 @@ Siga os passos abaixo para rodar a API do BookNest localmente:
    Crie um arquivo `.env` na raiz do projeto com o seguinte conteúdo (edite conforme seu ambiente):
 
     ```
-    PORT=3000
+    PORT=4000
     DB_USER=seu_usuario_postgres
     DB_HOST=localhost
     DB_NAME=booknest
     DB_PASSWORD=sua_senha_postgres
-    DB_PORT=5432
+    DB_PORT=porta_do_postgres
     ```
 
     Você pode usar o arquivo `.env.example` como base.
