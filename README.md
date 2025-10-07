@@ -100,7 +100,7 @@ yarn dev
 ```
 
 A API estará disponível em:
-👉 http://localhost:3000
+👉 http://localhost:4000 ou em http://localhost:5000
 
 > **Dica:** Mantenha o backend rodando em um terminal separado para garantir o funcionamento do frontend.
 
@@ -176,19 +176,6 @@ API-BookNest/
 ├── README.md
 └── ...
 ```
-
----
-
-# 🤝 Contribuindo
-
-Contribuições são bem-vindas!  
-Siga os passos:
-
-1. Faça um fork do projeto
-2. Crie uma branch (`git checkout -b minha-feature`)
-3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
-4. Envie para o repositório (`git push origin minha-feature`)
-5. Abra um Pull Request
 
 ---
 
